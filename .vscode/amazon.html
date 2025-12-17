@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-attachment: fixed;
+            background-color: rgb(158, 202, 204);
+        }
+        .uppercontainer{
+            display: flex;
+            height:45px; 
+            justify-content: left;
+            
+            background-color: rgba(3, 3, 68, 0.936);
+            color:white;
+        }
+        .searchcontainer{
+            width:329px;
+            display:flex;
+        }
+        .search{
+            width:300px;
+            padding:4px;
+        }
+        .searchbutton{
+            background-color: rgb(208, 150, 24);
+            border:0px;
+            
+        }
+
+        .menucontainer{
+            display:flex;
+            justify-content: space-between;
+            height:25px;
+            background-color: rgb(2, 82, 82);
+        
+        }
+        a:hover{
+            color:brown;
+            text-decoration: dotted;
+        }
+       .menucontainer div a:link{
+            background-color: aliceblue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+    .uppercontainer div{
+            padding:10px;
+        }
+        #locate{
+            font-size:12px;
+        }
+        #in{
+            font-size: 10px;
+        }
+        .container{
+            display:grid;
+            grid-template-areas: 
+            "left midleft midright right" ;
+            grid-template-columns:1fr 1fr 1fr 1fr;
+            gap:3px;
+            background-color: transparent;
+            padding:5px;
+
+        }
+    
+        .container div{
+            background-color: white;
+            
+            
+        }
+        .container div.left{
+            grid-area:left;
+        }
+        .container div.midleft{
+            grid-area:midleft;
+        }
+        .container div.midright{
+            grid-area:midright;
+        }
+        .container div.right{
+            grid-area:right;
+        }
+        img{
+            height:50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="uppercontainer">
+    <div id="amazon">amazon<span id="in">.in</span></div>
+        
+        <div >delivering to New Delhi 110020<br><span id="locate">Update location </span> </div>
+        <div class="searchcontainer">
+<input class="search" type="text" placeholder="Search.." name="search">
+<button class= "searchbutton" type="submit" ><i class="fafa-search">8</i></button>       </div></div>
+    
+    <div class="menucontainer">
+        <div><a href="amazon.html">All</a>                  </div>
+        <div><a href="amazon.html">MXplayer</a></div>
+        <div><a href="amazon.html">sell</a></div>
+        <div><a href="amazon.html">Bestsellers</a></div>
+        <div><a href="amazon.html">Mobiles"</a></div>
+        <div><a href="amazon.html">Today'sDeals</a></div>
+        <div><a href="amazon.html">customer service"</a></div>
+        <div><a href="amazon.html">prime"</a></div>
+        <div><a href="amazon.html">New releases</a></div>
+        <div><a href="amazon.html">Amazon Pay"</a></div>
+        <div><a href="amazon.html">Electronics"</a></div>
+        <div><a href="amazon.html">Fashion"</a></div>
+        <div><a href="amazon.html">home&Kitche"</a></div>
+        <div><a href="amazon.html">Books"</a></div>
+        <div><a href="amazon.html">Computers"</a></div>
+    </div>
+    <div class="container">
+        <div class="left"> Bulk order discounts + Up to 18% GST savings
+            <div><img src="refrigerator.png"></div>
+        </div>
+        <div class="leftmid">Revamp your home in style</div>
+        <div class="rightmid">Applinces for your home|Up to 55% off</div>
+        <div class="outheader">
+        <div class="inheader">Starting $149 | Headphones</div>
+            <div class="boat"> boat </div>
+    
+            <div class="BOULT">BOULT</div>
+            <div class="BOAT">starting</div>
+            <div class="boult">Starting</div>
+            <div class="noise"> noise</div>
+            <div class="Zebronics">ZEBRONICS</div>
+        </div>
+        
+    </div>
+</body>
+</html>

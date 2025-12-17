@@ -1,0 +1,22 @@
+html,body{
+    height:100%;
+    width:100%;
+}
+.button{
+    padding: 20px;
+    margin:0 3px;
+    border: 2px solid rgba(238, 17, 17, 0.163);
+    border-radius: 9px ;
+    cursor :pointer;
+}
+.row{
+    margin:8px 0;
+}
+.row input{
+    font-size : 25px;
+    margin:9px;
+    padding:12px 22px;
+    width :213px;
+    border-color:rgb(205, 205, 21);
+    font-style:italic;
+}

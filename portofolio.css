@@ -1,0 +1,82 @@
+*{
+    margin:o;
+    padding:0%;
+}
+body{
+    background-color:rgb(4, 4, 83);
+    color : rgb(250, 160, 227);
+    font-family:'Poppins',sans-serif;
+}
+nav{ display:flex;
+      justify-content:space-around;
+      align-items:center;
+      height:3;
+      background-color: rgb(67, 67, 105);
+      border-radius: 6px;
+    }
+nav ul{
+    display: flex;
+    justify-content:center;
+}
+nav ul li{ list-style: none;
+           margin:0 23px ;}
+           .left{
+            font-size:22px;
+            font-style: oblique;
+            color-scheme:  red;
+            border-color: rgb(217, 232, 233);
+            color: rgb(174, 109, 253);
+           }
+           firstSection{
+            display:flex;
+            justify-content: space-around;
+            margin: 23px 0;
+           }
+           .leftsection{
+        background-color: coral;
+           }
+           .firstSection{
+            justify-content: space-around;
+           display:flex;
+           margin: 23px 0;
+           }
+           .leftSection{
+        
+            font-size: 30px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            align-items: center;
+            display:flexbox;
+            margin-bottom: 900px;
+             height:fit-content;
+            margin-top: 70px;
+            justify-content:space-around;
+            
+             width:450px;      
+            background-image: -webkit-image-set(url(assets/chat\ image.avif));
+            align-items: center;
+            
+            border-radius: 20px;
+            
+           }
+           
+            .rightSection{
+            
+            width: 300px;
+            align-items: center;
+            margin-left: 20px;
+            margin-right: 300px;
+            height:200px;
+            
+           }
+            .rightSection img{
+                height:400px;
+                margin-left: 200px;
+                border-radius: 10px;
+                margin-top: 100px;
+
+            }
+            .purple{color:rgb(252, 12, 124);}
+            
+            
+
+           

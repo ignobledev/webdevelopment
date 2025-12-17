@@ -1,0 +1,10 @@
+*{
+    padding: 200px;
+    margin: 5px;
+}
+.body{
+    background-image: url(assets/download.jpeg);
+    max-width: 200px;
+    height: 330px;
+ 
+}
