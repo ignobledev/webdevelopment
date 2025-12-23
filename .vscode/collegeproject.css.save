@@ -180,7 +180,7 @@ font-size: larger;
  }
  .des .star {
     margin-right:80px;
-    color:rgb(225, 223, 0);
+    color:rgb(225,3, 0);
     
     
  }

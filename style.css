@@ -4,8 +4,8 @@ html,body{
 }
 .button{
     padding: 20px;
-    margin:0 3px;
-    border: 2px solid rgba(238, 17, 17, 0.163);
+    margin:0 9px;
+    border: 2px solid rgba(16, 1, 1, 0.879);
     border-radius: 9px ;
     cursor :pointer;
 }
@@ -17,6 +17,7 @@ html,body{
     margin:9px;
     padding:12px 22px;
     width :213px;
-    border-color:rgb(205, 205, 21);
+    border-color:rgb(2, 30, 54);
     font-style:italic;
+    background-color:rgb(160, 162, 159);
 }
