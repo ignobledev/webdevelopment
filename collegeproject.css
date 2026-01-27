@@ -15,14 +15,24 @@ body{
     margin-right: 0px;
 
 }
+ .search-container{
+margin-right: 200px;
+height: ;
+
+}
+.dearch{
+    width:400px;
+    height:25px;
+}
 .logo{
     height:50px;
+float: left;
     
 }
 #navbar {
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 #navbar li{
@@ -82,6 +92,7 @@ margin-bottom: 0px;
     background-repeat: no-repeat;
     cursor:pointer;
     font-weight: bold;
+    
 }
  .fe-box{
     width:120px;
@@ -136,29 +147,32 @@ h6{
     background-color: green;
 }
 
-#product-1{
+#product1{
     text-align:center;
     display:flex;
     flex-direction: column;
+    color:rgb(37, 78, 78);
     
 
 }
  .procontainer{
 width:220px;
-    height:250px;
+    height:350px;
   padding:10px 9px; 
     border:1px solid red;
     background-color: rgb(232, 236, 236);
     border-radius:25px;
     cursor:pointer;
-    margin:10px;
+    margin:15px 0;
+    transition:0.2s ease;
+    position:relative;
 
 
  }
- #product-1.procontainer:hover{
-    box-shadow:2px 2px 2px rgb(2, 33, 23);
+ #product1 .procontainer:hover{
+    box-shadow:20px 20px 30px rgb(0,0,0.8,8,0.5,0.06);
  }
- #product-1 .procontainer img{
+ #product1 .procontainer  img{
 width:208px;
 height:170px;
     border-radius:20px;
@@ -166,21 +180,101 @@ height:170px;
  }
  .pro{
     width:100%;
-    background-color:rgb(242, 228, 211) ;
+    
     display:flex;
     justify-content:space-around;
+flex-wrap:wrap;
  }
- .des span{
-    margin-right: 132px;
-    font-size:larger
+  .des {
+text-align: start;
+
  }
  .des h5{
-font-size: larger;
-    margin:10px ;
+    font-size:larger;
+    padding:0px;
+    height:5px;
+    margin-top: 0px;
  }
- .des .star {
-    margin-right:80px;
-    color:rgb(225, 223, 0);
-    
-    
+ .des .star{
+    color:rgb(251, 153, 7);
+    font-weight:900;
  }
+        #footer{
+            
+   background-image:url("products/hero2.jpg");
+height:400px;
+background-size:cover;
+  display:flex;
+    justify-content: center;
+}
+.arriv{
+    text-shadow: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color:rgb(5, 205, 69) ;
+    
+    background-color: rgb(232, 235, 249);
+    width:500px;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px 10px;
+    
+   
+}
+#footer .fot h{
+    font-size: 40px;
+    font-weight: bolder;
+    color:rgb(236, 7, 148);
+
+}
+#footer .fot h span{
+    font-size: larger;
+    font-weight: bolder;
+    color:rgb(244, 139, 10);
+
+}
+
+#footer .fot h2 button{
+    font-size: 40px;
+    font-weight: bolder;
+    color:rgb(28, 17, 5);
+    
+}
+#sm-banner .banner-box  {
+    background-image: url("img/banner2.jpg");
+display:flex;
+flex-direction:column;
+justify-content:center;
+text-align:center;
+ background-size: cover;
+height:400px;
+width:50%;
+
+}
+.banner-box h4 {
+margin-top:50px;
+font-size:40px;
+}
+.banner-box h2{
+color:red;}
+#sm-banner{
+display:flex;
+justify-content:space-around;
+flex-direction:row;
+
+flex-wrap:wrap;}
+.banner-box button{
+width:50px;
+height:20px;
+margin:auto;
+background-color:red;
+color:black;
+font-weight:900;
+margin-top:20px;
+width:90px;
+}
+
+.banner-box button:hover{
+
+cursor:pointer;}
